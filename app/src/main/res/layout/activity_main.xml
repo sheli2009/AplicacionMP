@@ -54,6 +54,7 @@
         android:id="@+id/button"
         android:layout_width="250dp"
         android:layout_height="49dp"
+        android:onClick="cambiarPelicula1"
         android:text="Ejercicio 1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
