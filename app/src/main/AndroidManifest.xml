@@ -12,6 +12,15 @@
         android:theme="@style/Theme.AplicacionMP"
         tools:targetApi="31">
         <activity
+            android:name=".MainActivityPelicula4"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityPelicula3"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
             android:name=".Pelicula1Activity"
             android:exported="false" />
         <activity

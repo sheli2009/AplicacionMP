@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import com.mjor.aplicacionmp.databinding.ActivityMainBinding
+import com.mjor.aplicacionmp.databinding.ActivityPelicula2Binding
 
 class MainActivity : AppCompatActivity() {
 
@@ -19,4 +20,17 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(this, Pelicula1Activity::class.java)
         startActivity(intent)
     }
+    fun cambiarPelicula2(view: View){
+        val intent = Intent(this, MainActivity2::class.java)
+        startActivity(intent)
+    }
+    fun cambiarPelicula3(view: View){
+        val intent = Intent(this, MainActivityPelicula3::class.java)
+        startActivity(intent)
+    }
+    fun cambiarPelicula4(view: View){
+        val intent = Intent(this, MainActivityPelicula4::class.java)
+        startActivity(intent)
+    }
+
 }
