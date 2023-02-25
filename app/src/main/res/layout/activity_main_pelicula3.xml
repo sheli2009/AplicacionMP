@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#D3A17F"
+    android:background="@drawable/fondo3"
     tools:context=".MainActivityPelicula3">
 
     <TextView
@@ -13,37 +13,42 @@
         android:layout_height="66dp"
         android:text="Mi tercera Pelicula Favorita "
         android:textAlignment="center"
-        android:textColor="#35302F"
+        android:textColor="#FBF82D"
         android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.741"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.055" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="180dp"
+        android:layout_height="186dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.214"
+        app:srcCompat="@drawable/imagen3" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="401dp"
+        android:layout_height="250dp"
+        android:text="El cirujano Danny decide contratar a su ayudante Katherine,  una madre soltera con hijos, para que finjan ser su familia.  Su intención es demostrarle a Palmer que su amor por ella  es tan grande que está a punto de divorciarse de su mujer."
+        android:textAlignment="center"
+        android:textColor="#77CF48"
+        android:textSize="20sp"
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.103" />
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="228dp"
-        android:layout_height="184dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.461"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.28"
-        app:srcCompat="@drawable/imagen4"/>
-
-    <TextView
-        android:id="@+id/textView8"
-        android:layout_width="349dp"
-        android:layout_height="173dp"
-        android:text="TextView"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.67" />
+        app:layout_constraintVertical_bias="0.629" />
 
     <Button
         android:id="@+id/button6"
@@ -52,10 +57,11 @@
         android:backgroundTint="#232020"
         android:onClick="cerrarVista"
         android:text="cerrar"
+        android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.109"
+        app:layout_constraintHorizontal_bias="0.056"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.88" />
+        app:layout_constraintVertical_bias="0.845" />
 </androidx.constraintlayout.widget.ConstraintLayout>

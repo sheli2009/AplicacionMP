@@ -4,52 +4,56 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fondo1"
+    android:background="@drawable/fondo2"
     tools:context=".MainActivity2">
 
     <TextView
         android:id="@+id/textView5"
         style="@style/Widget.AppCompat.TextView"
-        android:layout_width="365dp"
-        android:layout_height="60dp"
-        android:text="Mi segunda pelicula favorita"
+        android:layout_width="343dp"
+        android:layout_height="100dp"
+        android:text=" Mi segunda pelicula favorita"
         android:textAlignment="center"
-        android:textColor="#FFEB3B"
+        android:textColor="#111112"
         android:textSize="24sp"
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.652"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.076" />
+        app:layout_constraintVertical_bias="0.025" />
 
     <Button
         android:id="@+id/button5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="103dp"
+        android:layout_height="57dp"
+        android:backgroundTint="#C64015"
         android:onClick="cerrarVista"
         android:text="cerrar"
+        android:textAlignment="textStart"
+        android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.138"
+        app:layout_constraintHorizontal_bias="0.146"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.852" />
+        app:layout_constraintVertical_bias="0.912" />
 
     <TextView
         android:id="@+id/textView6"
-        android:layout_width="357dp"
-        android:layout_height="234dp"
+        android:layout_width="415dp"
+        android:layout_height="260dp"
         android:text="La muerte de su entrenador de baloncesto durante su infancia provoca la reunión de algunos viejos amigos, quienes se ven en el lugar en el que celebraron un campeonato años atrás. Los compañeros hablan sobre sus esposas y sus hijos, y descubren que la edad no necesariamente va de la mano con la madurez."
-        android:textColor="#F0EEF1"
+        android:textAlignment="center"
+        android:textColor="#FFC107"
         android:textSize="20sp"
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.678" />
+        app:layout_constraintVertical_bias="0.665" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -58,8 +62,9 @@
         android:layout_marginTop="128dp"
         app:layout_constraintBottom_toTopOf="@+id/textView6"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/imagen2" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#AE8EE8"
+    android:background="@drawable/fondo4"
     tools:context=".MainActivityPelicula4">
 
     <TextView
@@ -13,7 +13,7 @@
         android:layout_height="75dp"
         android:text="Mi cuarta pelicula favorita"
         android:textAlignment="center"
-        android:textColor="#2B635E"
+        android:textColor="#7B1FA2"
         android:textSize="24sp"
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -24,9 +24,13 @@
 
     <TextView
         android:id="@+id/textView10"
-        android:layout_width="337dp"
-        android:layout_height="198dp"
-        android:textColor="#191414"
+        android:layout_width="391dp"
+        android:layout_height="238dp"
+        android:text="Cada noche, Los Ángeles es testigo de alguna carrera de coches.  Últimamente ha aparecido un nuevo corredor, todos saben que  es duro y que es rápido, pero lo que no saben es  que es un detective con la determinación de salir victorioso."
+        android:textAlignment="center"
+        android:textColor="#82CDBE"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.49"
@@ -36,12 +40,15 @@
 
     <Button
         android:id="@+id/button7"
-        android:layout_width="116dp"
-        android:layout_height="63dp"
-        android:background="#4456BF"
+        android:layout_width="117dp"
+        android:layout_height="64dp"
+        android:backgroundTint="#66B0FA"
         android:onClick="cerrarVista"
+        android:shadowColor="#0C0B0B"
         android:text="cerrar"
-        android:textColor="#FFFFFF"
+        android:textColor="#101010"
+        android:textStyle="bold|italic"
+        app:iconTint="#171616"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.097"
@@ -51,12 +58,13 @@
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="176dp"
-        android:layout_height="151dp"
+        android:layout_width="221dp"
+        android:layout_height="168dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.548"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.251" />
+        app:layout_constraintVertical_bias="0.251"
+        app:srcCompat="@drawable/imagen4" />
 </androidx.constraintlayout.widget.ConstraintLayout>
